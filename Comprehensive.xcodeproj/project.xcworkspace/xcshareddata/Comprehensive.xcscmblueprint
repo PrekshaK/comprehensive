@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E43FFF7E63522DAE5EB725C0B39624D676AAFBC0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E43FFF7E63522DAE5EB725C0B39624D676AAFBC0" : 0,
+    "F16D24CBD3B0399467EDC29867AF03BC48306972" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A87727BF-A80F-48AC-80E0-7CE5C8A0EF18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E43FFF7E63522DAE5EB725C0B39624D676AAFBC0" : "Comprehensive\/",
+    "F16D24CBD3B0399467EDC29867AF03BC48306972" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Comprehensive",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Comprehensive.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PrekshaK\/comprehensive.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E43FFF7E63522DAE5EB725C0B39624D676AAFBC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PrekshaK\/iosclassproject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F16D24CBD3B0399467EDC29867AF03BC48306972"
+    }
+  ]
+}

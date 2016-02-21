@@ -15,6 +15,10 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var myTextView: UITextView!
 
+   
+  
+    @IBOutlet weak var showalertbutton: UIButton!
+   
     var viewController:ViewController?
     var masterView:ViewController?
     
@@ -83,7 +87,53 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
             
         }
         
+        
     }
+    
+    
+    
+    
+
+ 
+    @IBAction func actionalert(sender: AnyObject) {
+    
+        
+        
+        let alertController = UIAlertController(title: "Simple Button Alert", message: "Message", preferredStyle: .Alert)
+        
+        alertController.addTextFieldWithConfigurationHandler(
+            {
+                (textField: UITextField!) in
+                textField.placeholder = "Enter email address"
+        })
+        
+        let OkButton = UIAlertAction(title: "Ok", style: .Default) {  (action) in
+            
+            if let textFields = alertController.textFields{
+                let textFieldArray = textFields as [UITextField]
+                let emailaddress = textFieldArray[0].text
+                print(emailaddress)
+                
+            }
+            
+        }
+        
+        alertController.addAction(OkButton)
+        
+        let CancelButton = UIAlertAction(title: "Cancel", style: .Default){(action) in
+            print(action)
+        }
+        alertController.addAction(CancelButton)
+        
+        
+        
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+
+    }
+    
+    
     
     
     

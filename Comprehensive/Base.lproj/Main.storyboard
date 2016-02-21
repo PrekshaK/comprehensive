@@ -92,17 +92,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Hi" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DDZ-nr-KFT">
-                                <rect key="frame" x="28" y="109" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <rect key="frame" x="0.0" y="64" width="369" height="223"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9D7-5G-9qi">
+                                <rect key="frame" x="132" y="530" width="40" height="30"/>
+                                <state key="normal" title="SHow"/>
+                                <connections>
+                                    <action selector="actionalert:" destination="uYm-vb-uWE" eventType="touchUpInside" id="O1k-2B-6Bf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Onk-D0-DaP"/>
                     <connections>
                         <outlet property="myTextView" destination="DDZ-nr-KFT" id="qR6-Q5-r0R"/>
+                        <outlet property="showalertbutton" destination="9D7-5G-9qi" id="ICS-qn-AkF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fw-kw-HlB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -111,6 +118,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ib6-nH-Zfv"/>
+        <segue reference="I1L-Sa-UUk"/>
     </inferredMetricsTieBreakers>
 </document>
